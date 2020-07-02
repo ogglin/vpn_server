@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if name %}
+      <h1>VPN panel {{ name }}!</h1>
+    {% else %}
+      <h1>VPN panel</h1>
+    {% endif %}
+    <a href="{{ url_for('login_page') }}">Войти</a>
+{% endblock %}
