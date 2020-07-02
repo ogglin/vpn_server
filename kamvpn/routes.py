@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from sys import platform
 from flask import render_template, redirect, flash
